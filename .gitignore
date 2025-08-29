@@ -1,0 +1,13 @@
+bin/
+obj/
+*.user
+*.suo
+*.vs
+*.vscode
+*.DS_Store
+*.log
+*.tmp
+*.swp
+*.lock
+*.zip
+*.publish/

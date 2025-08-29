@@ -1,0 +1,7 @@
+{
+  "Information": [
+    "AWS Lambda .NET 8 SNS Gateway Example",
+    "Project: SnsGatewayLambda",
+    "Handler: SnsGatewayLambda::SnsGatewayLambda.Function::FunctionHandler"
+  ]
+}

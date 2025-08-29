@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ashishsingh/Documents/CodeWorkSpace/AzureDemoPOC/sns-dotnet-lamda-test/SnsGatewayLambda/SnsGatewayLambda.csproj": {}
+  },
+  "projects": {
+    "/Users/ashishsingh/Documents/CodeWorkSpace/AzureDemoPOC/sns-dotnet-lamda-test/SnsGatewayLambda/SnsGatewayLambda.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ashishsingh/Documents/CodeWorkSpace/AzureDemoPOC/sns-dotnet-lamda-test/SnsGatewayLambda/SnsGatewayLambda.csproj",
+        "projectName": "SnsGatewayLambda",
+        "projectPath": "/Users/ashishsingh/Documents/CodeWorkSpace/AzureDemoPOC/sns-dotnet-lamda-test/SnsGatewayLambda/SnsGatewayLambda.csproj",
+        "packagesPath": "/Users/ashishsingh/.nuget/packages/",
+        "outputPath": "/Users/ashishsingh/Documents/CodeWorkSpace/AzureDemoPOC/sns-dotnet-lamda-test/SnsGatewayLambda/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ashishsingh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/ashishsingh/Documents/CodeWorkSpace/Software/nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Amazon.Lambda.SNSEvents": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Amazon.Lambda.TestUtilities": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NewRelic.Agent.Api": {
+              "target": "Package",
+              "version": "[10.20.2, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
